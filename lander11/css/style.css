@@ -1,0 +1,836 @@
+body {
+    background-color: #f1f2f6!important
+}
+
+.wizzi-container {
+    padding: 20px
+}
+
+.center {
+    text-align: center!important
+}
+
+.white {
+    color: #fff!important
+}
+
+.sticky {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+    top: 25px!important
+}
+
+@font-face {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    src: url(Georgia-Regular.f4b306eed95aa7d27484.ttf)
+}
+
+@font-face {
+    font-family: Georgia;
+    font-style: bold;
+    font-weight: 700;
+    src: url(Georgia-Bold.d312a7a0fe830489de6c.ttf)
+}
+
+.fr-img-caption.fr-rounded img, img.fr-rounded {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.fr-view img {
+    position: relative;
+    max-width: 100%;
+}
+
+.fr-view img.fr-dib {
+    margin: 5px auto;
+    display: block;
+    float: none;
+    vertical-align: top;
+}
+
+.theme-card[_ngcontent-ryx-c50] {
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+.default[_ngcontent-ryx-c50] {
+    margin-top: 20px !important
+}
+
+.disclaimer-container[_ngcontent-ryx-c50] {
+    max-width: 850px !important;
+    margin: 0 auto !important
+}
+
+.footer-custom-container[_ngcontent-ryx-c50] {
+    max-width: 800px !important;
+    margin: 0 auto !important
+}
+
+.footer-custom-container[_ngcontent-ryx-c50] .footer-text[_ngcontent-ryx-c50] {
+    padding: 20px !important
+}
+
+.content-container[_ngcontent-ryx-c50] {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    background-color: #fff !important
+}
+
+.full_page[_ngcontent-ryx-c50] {
+    max-width: 900px !important;
+    margin: 0 auto !important
+}
+
+.full_page[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    padding: 20px !important
+}
+
+.sidebar[_ngcontent-ryx-c50], .sidebar_left[_ngcontent-ryx-c50] {
+    max-width: 1100px !important;
+    margin: 0 auto !important
+}
+
+.sidebar[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .sidebar_left[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    padding: 20px !important
+}
+
+.freestyle[_ngcontent-ryx-c50] {
+    margin-top: -20px !important
+}
+
+.classic[_ngcontent-ryx-c50] {
+    border-radius: 0 !important
+}
+
+.classic[_ngcontent-ryx-c50], .modern[_ngcontent-ryx-c50] {
+    background-color: #fff !important;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1) !important
+}
+
+.modern[_ngcontent-ryx-c50] {
+    border-radius: 10px !important
+}
+
+.clean[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    box-shadow: none !important
+}
+
+.clean[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .overrideHeroImage[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    background-color: transparent !important
+}
+
+.steel[_ngcontent-ryx-c50] {
+    background-color: #fff !important;
+    max-width: 2500px !important;
+    margin: -30px auto 0 !important
+}
+
+.steel[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    padding-top: 30px !important;
+    max-width: 900px !important;
+    margin: 0 auto !important
+}
+
+.browbooster[_ngcontent-ryx-c50], .cat-nutrition[_ngcontent-ryx-c50], .deepfat[_ngcontent-ryx-c50], .glamor[_ngcontent-ryx-c50], .glamor-alt[_ngcontent-ryx-c50], .gundry[_ngcontent-ryx-c50], .gutdetox[_ngcontent-ryx-c50], .hero[_ngcontent-ryx-c50], .martys[_ngcontent-ryx-c50], .pet-nutrition[_ngcontent-ryx-c50], .powerprotein[_ngcontent-ryx-c50], .united-naturals[_ngcontent-ryx-c50] {
+    background-color: #fff !important;
+    max-width: 2500px !important;
+    margin: -20px auto 0 !important
+}
+
+.browbooster[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .cat-nutrition[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .deepfat[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .glamor-alt[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .glamor[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .gundry[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .gutdetox[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .hero[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .martys[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .pet-nutrition[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .powerprotein[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50], .united-naturals[_ngcontent-ryx-c50] .content-container[_ngcontent-ryx-c50] {
+    max-width: 800px !important;
+    margin: 0 auto !important
+}
+
+.nav_full_page[_ngcontent-ryx-c14] {
+    max-width: 930px !important;
+    margin: 0 auto !important
+}
+
+.nav_sidebar[_ngcontent-ryx-c14], .nav_sidebar_left[_ngcontent-ryx-c14] {
+    max-width: 1100px !important;
+    margin: 0 auto !important
+}
+
+.mobile-menu[_ngcontent-ryx-c14] {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px
+}
+
+.mobile-menu[_ngcontent-ryx-c14], .nav-v1[_ngcontent-ryx-c14] {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .3) !important
+}
+
+.nav-v1[_ngcontent-ryx-c14] .logo-row[_ngcontent-ryx-c14] {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px
+}
+
+.nav-v1[_ngcontent-ryx-c14] .ui.grid[_ngcontent-ryx-c14] {
+    padding: 15px !important;
+    margin-bottom: 25px !important
+}
+
+.nav-v1[_ngcontent-ryx-c14] .ui.grid[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    cursor: pointer
+}
+
+.nav-v1[_ngcontent-ryx-c14] a.item[_ngcontent-ryx-c14] {
+    margin-top: 5px !important
+}
+
+.nav-v2[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important
+}
+
+.nav-v2[_ngcontent-ryx-c14], .nav-v3[_ngcontent-ryx-c14] {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .3) !important
+}
+
+.nav-v3[_ngcontent-ryx-c14] .logo-row[_ngcontent-ryx-c14] {
+    padding-top: 10px !important;
+    text-align: center !important
+}
+
+.nav-v3[_ngcontent-ryx-c14] .logo-row[_ngcontent-ryx-c14] .logo-padded[_ngcontent-ryx-c14] {
+    padding-bottom: 10px !important
+}
+
+.nav-v3[_ngcontent-ryx-c14] .logo-row[_ngcontent-ryx-c14] .logo-pushed[_ngcontent-ryx-c14] {
+    margin-bottom: -50px !important
+}
+
+.nav-v3[_ngcontent-ryx-c14] .nav-v3-menu[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important
+}
+
+.clean[_ngcontent-ryx-c14] {
+    text-align: center !important
+}
+
+.clean[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 10px !important
+}
+
+.steel[_ngcontent-ryx-c14] {
+    margin-bottom: 30px !important;
+    background-color: #fff !important
+}
+
+.steel[_ngcontent-ryx-c14] .logo-section[_ngcontent-ryx-c14] {
+    padding-top: 5px
+}
+
+.steel[_ngcontent-ryx-c14] .logo-section[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 275px !important;
+    margin-top: 5px
+}
+
+.steel[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border: none !important
+}
+
+.steel[_ngcontent-ryx-c14] .menu.item[_ngcontent-ryx-c14] {
+    padding: 10px 20px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    color: #000 !important;
+    letter-spacing: 1px !important;
+    text-align: center !important
+}
+
+.steel[_ngcontent-ryx-c14] .row.nav[_ngcontent-ryx-c14] {
+    border-top: 1px solid #d5c04d !important;
+    border-bottom: 1px solid #d5c04d !important
+}
+
+.steel[_ngcontent-ryx-c14] .navsocial[_ngcontent-ryx-c14] .icon[_ngcontent-ryx-c14] {
+    color: #4b4f54 !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .3) !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .step[_ngcontent-ryx-c14] {
+    background-color: #404040 !important;
+    color: #fff !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .step[_ngcontent-ryx-c14] .description[_ngcontent-ryx-c14] {
+    color: #aaa !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .step[_ngcontent-ryx-c14]:hover {
+    background-color: #2e3540 !important;
+    color: #fff !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .step[_ngcontent-ryx-c14]:after {
+    background-color: #404040 !important;
+    color: #404040 !important
+}
+
+.worldlifestyle[_ngcontent-ryx-c14] .title[_ngcontent-ryx-c14] {
+    color: #fff !important
+}
+
+.worldlifestyle-two[_ngcontent-ryx-c14] {
+    border-bottom: 2px solid #3d5db5 !important;
+    background-color: #fff !important;
+    max-width: 900px !important;
+    margin: 0 auto !important
+}
+
+.worldlifestyle-two[_ngcontent-ryx-c14] .logo-container[_ngcontent-ryx-c14] {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.worldlifestyle-two[_ngcontent-ryx-c14] .logo-container[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important
+}
+
+.daily-discovery[_ngcontent-ryx-c14], .daily-discovery[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background-color: #000 !important
+}
+
+.daily-discovery[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border-radius: 0 !important;
+    max-width: 1250px !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.daily-discovery[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 275px !important
+}
+
+.daily-discovery[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    color: #fff !important
+}
+
+.insight-inspo[_ngcontent-ryx-c14] {
+    border-bottom: 2px solid #e2e2e2 !important
+}
+
+.insight-inspo[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.insight-inspo[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .logo-img[_ngcontent-ryx-c14] {
+    max-width: 250px !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .logo.row[_ngcontent-ryx-c14] {
+    background: #2e56b3;
+    background: -webkit-gradient(linear, left top, right top, from(#3867d6), color-stop(50%, #5f85de), to(#3867d6));
+    background: linear-gradient(90deg, #3867d6, #5f85de 50%, #3867d6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e56b3", endColorstr="#2e56b3", GradientType=1);
+    width: 100% !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .logo.container[_ngcontent-ryx-c14] {
+    text-align: center !important;
+    padding: 20px 0 !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .disclaimer[_ngcontent-ryx-c14] {
+    color: #ddd;
+    font-size: 12px;
+    margin: 0;
+    text-align: center
+}
+
+.active-inspo[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background: rgba(46, 86, 179, .1) !important;
+    box-shadow: none !important;
+    border: none !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    font-weight: 700 !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #555;
+    font-size: 18px !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .grid[_ngcontent-ryx-c14] {
+    margin: 0 !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .column[_ngcontent-ryx-c14] {
+    padding: 0 !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .social[_ngcontent-ryx-c14] {
+    width: 100% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    padding-top: 10px !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .social[_ngcontent-ryx-c14] .icon[_ngcontent-ryx-c14] {
+    color: #fff !important;
+    display: inline-block !important;
+    vertical-align: middle !important
+}
+
+.active-inspo[_ngcontent-ryx-c14] .social-item[_ngcontent-ryx-c14] {
+    cursor: pointer
+}
+
+.stock-inspo[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0 !important
+}
+
+.stock-inspo[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important
+}
+
+.stock-inspo[_ngcontent-ryx-c14] .nav-row[_ngcontent-ryx-c14] {
+    background-color: #333;
+    width: 100%;
+    text-align: center
+}
+
+.stock-inspo[_ngcontent-ryx-c14] .colors[_ngcontent-ryx-c14] {
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    max-width: 50%;
+    background: #b22234;
+    background: linear-gradient(45deg, #b22234, #fff 50%, #3c3b6e);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b22234", endColorstr="#3c3b6e", GradientType=1)
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] {
+    background-color: #252a3b !important
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .savingweekly-logo-nav[_ngcontent-ryx-c14] {
+    max-width: 900px !important;
+    margin: 0 auto !important
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .main-menu[_ngcontent-ryx-c14] .white-menu[_ngcontent-ryx-c14] {
+    background-color: #fff !important
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .ui.menu[_ngcontent-ryx-c14] {
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: #252a3b !important
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .menu-button[_ngcontent-ryx-c14] {
+    float: right;
+    margin-top: 20px;
+    color: #fff
+}
+
+.savingmoneyweekly[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    color: #fff !important
+}
+
+.agoralogical[_ngcontent-ryx-c14] {
+    background-color: #203662
+}
+
+.agoralogical[_ngcontent-ryx-c14] .logical[_ngcontent-ryx-c14] {
+    max-width: 900px !important;
+    margin: 0 auto !important
+}
+
+.agoralogical[_ngcontent-ryx-c14] .logical-logo-nav[_ngcontent-ryx-c14] {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.agoralogical[_ngcontent-ryx-c14] .logical-logo-nav[_ngcontent-ryx-c14] .text[_ngcontent-ryx-c14] {
+    font-size: 2em;
+    padding-left: 15px;
+    color: #fff !important
+}
+
+.agoralogical[_ngcontent-ryx-c14] .logical-logo-nav[_ngcontent-ryx-c14] .tm[_ngcontent-ryx-c14] {
+    font-size: .5em
+}
+
+.agoralogical[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background-color: #203662;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.agoralogical[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 275px !important
+}
+
+.agoralogical[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    color: #fff !important
+}
+
+.gadgetspost[_ngcontent-ryx-c14] {
+    max-width: 900px !important;
+    margin: 0 auto 20px !important
+}
+
+.gadgetspost[_ngcontent-ryx-c14] .white[_ngcontent-ryx-c14] {
+    color: #fff !important
+}
+
+.gadgetspost[_ngcontent-ryx-c14] .gadgets-logo-nav[_ngcontent-ryx-c14] {
+    background-color: #fff !important;
+    padding-top: 10px
+}
+
+.gadgetspost[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    padding-top: 5px;
+    width: 100%;
+    height: 45px
+}
+
+.gadgetspost[_ngcontent-ryx-c14] .top-menu[_ngcontent-ryx-c14] {
+    border: none !important;
+    padding: 10px 5px 10px 10px;
+    margin-bottom: 0
+}
+
+.gadgetspost[_ngcontent-ryx-c14] .bottom-menu[_ngcontent-ryx-c14] {
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #42a7ab
+}
+
+.home-light[_ngcontent-ryx-c14] {
+    border-bottom: 1px solid #d8d8d8 !important
+}
+
+.home-light[_ngcontent-ryx-c14], .home-light[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background-color: #fff !important
+}
+
+.home-light[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    max-width: 1350px !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 2px !important
+}
+
+.home-light[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 185px !important
+}
+
+.home-light[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    color: #222 !important;
+    font-weight: lighter !important;
+    font-size: 14px !important
+}
+
+.home-light[_ngcontent-ryx-c14] .button[_ngcontent-ryx-c14] {
+    color: #fff !important;
+    background: #3e8ad4;
+    background: -webkit-gradient(linear, left top, right top, from(#3e8ad4), to(#55b6e8));
+    background: linear-gradient(90deg, #3e8ad4, #55b6e8)
+}
+
+.home-light[_ngcontent-ryx-c14] .button[_ngcontent-ryx-c14]:hover {
+    box-shadow: -1px 10px 20px 0 rgba(0, 0, 0, .16) !important
+}
+
+.glamor[_ngcontent-ryx-c14] {
+    padding-bottom: 30px !important;
+    background-color: #fff !important
+}
+
+.glamor[_ngcontent-ryx-c14] .logo-section[_ngcontent-ryx-c14] {
+    padding-top: 5px
+}
+
+.glamor[_ngcontent-ryx-c14] .logo-section[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 200px !important;
+    margin-top: 5px
+}
+
+.glamor[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    border: none !important
+}
+
+.glamor[_ngcontent-ryx-c14] .row.nav[_ngcontent-ryx-c14] {
+    background-color: #ffe6e1 !important
+}
+
+.glamor[_ngcontent-ryx-c14] .ui.text.menu[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    padding: 5px 20px !important;
+    font-family: Josefin Sans, sans-serif !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important
+}
+
+.glamor[_ngcontent-ryx-c14] .ui.grid[_ngcontent-ryx-c14]>.row[_ngcontent-ryx-c14] {
+    margin-top: 10px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important
+}
+
+.glamor[_ngcontent-ryx-c14] .navsocial[_ngcontent-ryx-c14] .icon[_ngcontent-ryx-c14] {
+    color: #4b4f54 !important
+}
+
+.glamor-alt[_ngcontent-ryx-c14], .glamor-alt[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background-color: #bdeff0 !important
+}
+
+.glamor-alt[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    font-family: Josefin Sans, sans-serif !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    box-shadow: none !important
+}
+
+.glamor-alt[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    padding: 10px;
+    max-width: 200px
+}
+
+.glamor-alt[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14], .glamor-alt[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] a[_ngcontent-ryx-c14] {
+    color: #444 !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] {
+    background-color: #fff !important;
+    border-bottom: 6px solid #00a79d !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .menu-container[_ngcontent-ryx-c14] {
+    max-width: 950px !important;
+    margin: 0 auto !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .menu[_ngcontent-ryx-c14] {
+    background-color: #fff !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 10px !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    max-width: 250px !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .item[_ngcontent-ryx-c14] {
+    color: #222 !important;
+    font-weight: lighter !important;
+    font-size: 14px !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .button[_ngcontent-ryx-c14] {
+    float: right !important;
+    color: #00a79d !important;
+    background-color: transparent;
+    border: 1px solid #00a79d !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .button[_ngcontent-ryx-c14] .icon[_ngcontent-ryx-c14] {
+    font-size: 14px !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .text[_ngcontent-ryx-c14] {
+    float: right !important;
+    font-family: helvetica-light, Arial, Helvetica, sans-serif
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .text[_ngcontent-ryx-c14] .spantext[_ngcontent-ryx-c14] {
+    font-size: 16px !important
+}
+
+.improvedigestion[_ngcontent-ryx-c14] .text[_ngcontent-ryx-c14] a[_ngcontent-ryx-c14] {
+    color: #00a79d !important
+}
+
+.beverlyhills[_ngcontent-ryx-c14] {
+    background-color: #fff !important
+}
+
+.beverlyhills[_ngcontent-ryx-c14] .row-one[_ngcontent-ryx-c14], .beverlyhills[_ngcontent-ryx-c14] .row-two[_ngcontent-ryx-c14] {
+    border-bottom: 1px solid #191919 !important;
+    text-align: center !important;
+    padding: 10px !important
+}
+
+.beverlyhills[_ngcontent-ryx-c14] .inner-menu[_ngcontent-ryx-c14] {
+    max-width: 950px !important;
+    margin: 0 auto !important
+}
+
+.beverlyhills[_ngcontent-ryx-c14] .logo[_ngcontent-ryx-c14] {
+    width: 85% !important
+}
+
+.beverlyhills[_ngcontent-ryx-c14] .logo-two[_ngcontent-ryx-c14] {
+    width: 65% !important
+}
+
+@media (min-width:1401px) {
+    .desk-logo[_ngcontent-ryx-c14] {
+        max-width: 275px !important
+    }
+}
+
+@media (min-width:801px) and (max-width:1400px) {
+    .desk-logo[_ngcontent-ryx-c14] {
+        max-width: 225px !important
+    }
+}
+
+@media (max-width:800px) {
+    .mob-logo[_ngcontent-ryx-c14] {
+        max-width: 200px !important
+    }
+}
+
+.actions[_ngcontent-ryx-c47] {
+    padding-bottom: 30px
+}
+
+.actions[_ngcontent-ryx-c47] .icon.button[_ngcontent-ryx-c47] {
+    background: transparent !important
+}
+
+.section-spacer[_ngcontent-ryx-c47] {
+    margin-top: 20px
+}
+
+.sidebar-section[_ngcontent-ryx-c46] {
+    z-index: 0 !important
+}
+
+@media (min-width:1401px) {
+    .title-container[_ngcontent-ryx-c26] h1[_ngcontent-ryx-c26] {
+        font-size: 45px !important
+    }
+}
+
+@media (min-width:801px) and (max-width:1400px) {
+    .title-container[_ngcontent-ryx-c26] h1[_ngcontent-ryx-c26] {
+        font-size: 37px !important
+    }
+}
+
+@media (max-width:800px) {
+    .title-container[_ngcontent-ryx-c26] h1[_ngcontent-ryx-c26] {
+        font-size: 28px !important
+    }
+}
+
+.author-section[_ngcontent-ryx-c34] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #f1f2f6;
+    border-bottom: 1px solid #f1f2f6
+}
+
+.current-date[_ngcontent-ryx-c34] {
+    color: #bdc3c7 !important;
+    font-size: 12px !important
+}
+
+@media (min-width:1001px) {
+    .author-name[_ngcontent-ryx-c34] {
+        width: 400px !important
+    }
+}
+
+@media (min-width:801px) and (max-width:1000px) {
+    .author-name[_ngcontent-ryx-c34] {
+        width: 250px !important
+    }
+}
+
+@media (max-width:800px) {
+    .author-name[_ngcontent-ryx-c34] {
+        width: 140px !important
+    }
+    .ui.column.grid>[class*="eleven wide"].column, .ui.grid>.column.row>[class*="eleven wide"].column, .ui.grid>.row>[class*="eleven wide"].column, .ui.grid>[class*="eleven wide"].column, .ui.column.grid>[class*="five wide"].column, .ui.grid>.column.row>[class*="five wide"].column, .ui.grid>.row>[class*="five wide"].column, .ui.grid>[class*="five wide"].column {
+        width: 100% !important;
+    }
+    body>app-root>div>ng-component>div>app-view-content>theme-generator>div.navigation-container>app-navigation>div:nth-child(1)>div>div>div>div.right.menu {
+        display: none !important;
+    }
+    body>app-root>div>ng-component>div>app-view-content>theme-generator>div.navigation-container>app-navigation>div:nth-child(1)>div>div>div>div.item {
+        margin: 0 auto;
+        padding-top: 5px;
+        padding-bottom: 19px;
+    }
+}
+
+.image[_ngcontent-ryx-c28] {
+    border-radius: 5px
+}
